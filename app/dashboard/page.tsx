@@ -27,7 +27,7 @@ const Dashboard = async () => {
     );
   }
 
-  const data = await getData(user.id);
+  const data = await getData(user?.id);
 
   return (
     <div className="p-6">
